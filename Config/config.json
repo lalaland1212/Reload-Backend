@@ -1,12 +1,12 @@
 {
-    "moderators": ["discordId", "discordId2"],
+    "moderators": ["945472332875567135", "discordId2"],
   "discord": {
     "bUseDiscordBot": true,
-    "bot_token": "",
+    "bot_token": "MTQzNjM5MzYwNjM2NDY2Mzg5MQ.G2Oci0.t2PgZEF7X7uiWVUZwiE57kDmBYlT3dB0rIszJU",
     "bEnableInGamePlayerCount": true
   },
   "mongodb": {
-    "database": "mongodb://127.0.0.1/Reload"
+    "database": "mongodb+srv://14891_db_user:qpCQ6pTKkKMw44u7@school-cluster.ca84k5m.mongodb.net/?appName=School-Cluster"
   },
     "chat": {
         "//": "Disabling global chat can help the server to perform faster as less resources are used.",
@@ -38,8 +38,8 @@
     },
 
     "//": "to add more gameserver on 'gameServerIP' add ip:port:playlist",
-    "matchmakerIP": "127.0.0.1:80",
-    "gameServerIP": ["127.0.0.1:7777:playlist_defaultsolo"],
+    "matchmakerIP": "10.10.46.54:80",
+    "gameServerIP": ["10.10.46.54:7777:playlist_defaultsolo"],
     
     "//": "For 'BattlePassSeason' enter only the number of your season (from 2 to 20)",
     "bEnableBattlepass": false,
@@ -56,7 +56,7 @@
     "bChapterlimit": "1",
     "bSeasonlimit": "10",
     "bRotateTime": "00:00",
-    "bExcludedItems": ["CID_VIP_Athena_Commando_M_GalileoGondola_SG", "CID_636_Athena_Commando_M_GalileoGondola_78MFZ", "CID_637_Athena_Commando_M_GalileoOutrigger_7Q0YU", "CID_VIP_Athena_Commando_M_GalileoFerry_SG", "CID_VIP_Athena_Commando_F_GalileoRocket_SG", "CID_568_Athena_Commando_M_RebirthSoldier"],
+    "bExcludedItems": [""],
     "bItemShopWebhook": "",
     "bDailyItemsAmount": 6,
     "bFeaturedItemsAmount": 2,
